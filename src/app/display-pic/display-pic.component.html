@@ -1,0 +1,11 @@
+<div class = "content">
+  <div class="head">
+    <div class = "name"> Name of pic : {{postpic.name}} <br>  {{postpic.date}}</div>
+    <div><button class = "buttonX"(click)='del()'>Delete</button></div>
+  </div>
+
+  <div class = "body">
+    <div class = "msg" > {{postpic.msg}} </div>
+    <div class = "img"> <img [src]="img_url"/></div>
+  </div>
+</div> 

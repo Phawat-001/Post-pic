@@ -1,0 +1,44 @@
+.content{
+  background-color: rgb(229,174,134);
+  border: 2px solid saddlebrown;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.head{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  display: flex;
+}
+
+.img{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+img{
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+  }
+.msg{
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(255, 217, 159);
+  border: 2px solid saddlebrown;
+  
+}
+.buttonX{
+  
+  width: auto;
+  background-color: rgb(221, 123, 57);
+  color: rgb(110, 53, 7);
+}
+.body{
+  margin: 0px;
+}

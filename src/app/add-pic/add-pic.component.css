@@ -1,0 +1,16 @@
+.add_pic{
+  margin-top: ;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.post{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(212, 170, 105);
+}
+.img{
+  background-color: rgb(207, 156, 61);
+  border-radius: 5px;
+}

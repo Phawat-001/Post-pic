@@ -1,0 +1,6 @@
+/* Add application styles & imports to this file! */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{
+  font-family: 'Pangolin', cursive;
+  margin: 0px;
+}

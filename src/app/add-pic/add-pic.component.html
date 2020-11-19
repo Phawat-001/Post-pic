@@ -1,0 +1,19 @@
+<div class = "add_pic">
+	<form [formGroup]="form">
+		<label>Name of pic</label><br> 
+		<input type="text" formControlName="name" placeholder="ชื่อรูปภาพ"><br>
+
+		<label>describe</label><br>
+		<textarea formControlName="msg" cols= "50" rows = "10" placeholder="อธิบายรูปภาพ"></textarea><br>
+
+		<input class = "img" type="file" accept="image/*" (change)="uploadFile($event)"/><br>
+
+    <label>Delete password</label><br> 
+		<input type="text" formControlName="password" placeholder="รหัสลบรูปภาพ"><br>
+
+		<input class = "post" type="submit" value="Post" (click)="onPostpic()">
+
+    
+  </form>
+
+</div>
